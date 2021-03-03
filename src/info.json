@@ -1,6 +1,6 @@
 {
     "identifier": "club.openl.bob-plugin-openl-translate",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "category": "translate",
     "name": "OpenL",
     "summary": "OpenL 聚合人工智能翻译",
@@ -34,24 +34,36 @@
                     "value": "tencent"
                 },
                 {
-                    "title": "彩云小译",
-                    "value": "caiyun"
+                    "title": "阿里翻译",
+                    "value": "aliyun"
                 },
                 {
                     "title": "百度翻译",
                     "value": "baidu"
                 },
                 {
+                    "title": "彩云小译",
+                    "value": "caiyun"
+                },
+                {
                     "title": "搜狗翻译",
                     "value": "sogou"
                 },
                 {
-                    "title": "Google 翻译",
-                    "value": "google"
-                },
-                {
                     "title": "Azure 翻译",
                     "value": "azure"
+                },
+                {
+                    "title": "IBM Watson",
+                    "value": "ibm"
+                },
+                {
+                    "title": "Amazon 翻译",
+                    "value": "aws"
+                },
+                {
+                    "title": "Google 翻译",
+                    "value": "google"
                 }
             ]
         }
