@@ -1,0 +1,59 @@
+{
+    "identifier": "club.openl.bob-plugin-openl-translate",
+    "version": "0.0.1",
+    "category": "translate",
+    "name": "OpenL",
+    "summary": "OpenL 聚合人工智能翻译",
+    "icon": "icon.png",
+    "author": "OpenL <git@openl.club>",
+    "homepage": "https://github.com/AgaveTech/bob-plugin-openl-translate",
+    "appcast": "",
+    "minBobVersion": "0.5.0",
+    "options": [
+        {
+            "identifier": "apikey",
+            "type": "text",
+            "title": "API 密钥"
+        },
+        {
+            "identifier": "service",
+            "type": "menu",
+            "title": "服务",
+            "defaultValue": "deepl",
+            "menuValues": [
+                {
+                    "title": "DeepL",
+                    "value": "deepl"
+                },
+                {
+                    "title": "有道翻译",
+                    "value": "youdao"
+                },
+                {
+                    "title": "腾讯翻译君",
+                    "value": "tencent"
+                },
+                {
+                    "title": "彩云小译",
+                    "value": "caiyun"
+                },
+                {
+                    "title": "百度翻译",
+                    "value": "baidu"
+                },
+                {
+                    "title": "搜狗翻译",
+                    "value": "sogou"
+                },
+                {
+                    "title": "Google 翻译",
+                    "value": "google"
+                },
+                {
+                    "title": "Azure 翻译",
+                    "value": "azure"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,47 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Get latest release version number
+        id: get_version
+        uses: battila7/get-version-action@v2
+      
+      - name: Zip files
+        uses: papeloto/action-zip@v1
+        with:
+          files: src/
+          dest: release/bob-plugin-openl-translate-${{ steps.get_version.outputs.version }}.bobplugin
+      
+      - name: Update appcast.json
+        run: |
+          python3 scripts/update_appcast.py ${{ steps.get_version.outputs.version-without-v }}
+      
+      - name: Commit files
+        run: |
+          git config --global user.name 'OpenL'
+          git config --global user.email 'git@openl.club'
+          git add .
+          git commit -am 'update appcast.json'
+
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+      
+      - uses: ncipollo/release-action@v1
+        with:
+          artifacts: 'release/*.bobplugin'
+          token: ${{ secrets.GITHUB_TOKEN }}
+          draft: true
