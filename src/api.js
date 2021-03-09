@@ -13,7 +13,7 @@ class Api {
             return await $http.request(Object.assign(Object.assign({}, requestObject), {
                 url, header: {
                     'Content-Type': 'application/json',
-                    'User-Agent': 'openl-bob-plugin' + "0.0.1",
+                    'User-Agent': `openl-bob-plugin-v${$info.version}`,
                 }, body
             }));
         }

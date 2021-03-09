@@ -23,7 +23,7 @@ function translate(query, completion) {
             url: '/translate',
             body: {
                 text: query.text,
-                src_lang: utils.langMap.get(query.detectFrom),
+                source_lang: utils.langMap.get(query.detectFrom),
                 target_lang: targetLanguage,
             },
         });
@@ -63,10 +63,12 @@ function translate(query, completion) {
                 });
                 return;
             }
+            const translationsResult = $option.displayServiceName === "yes" ? `[${config.serviceDisplayName[$option.service]}] ${translations.result}` : translations.result;
             completion({
                 result: {
                     from: utils.langMapReverse.get(translations.src_lang),
-                    toParagraphs: translations.result.split('\n'),
+                    to: utils.langMapReverse.get(translations.target_lang),
+                    toParagraphs: translationsResult.split('\n'),
                 },
             });
         }

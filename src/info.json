@@ -1,6 +1,6 @@
 {
     "identifier": "club.openl.bob-plugin-openl-translate",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "category": "translate",
     "name": "OpenL",
     "summary": "OpenL 聚合人工智能翻译",
@@ -64,6 +64,22 @@
                 {
                     "title": "Google 翻译",
                     "value": "google"
+                }
+            ]
+        },
+        {
+            "identifier": "displayServiceName",
+            "type": "menu",
+            "title": "服务名显示",
+            "defaultValue": "no",
+            "menuValues": [
+                {
+                    "title": "不显示",
+                    "value": "no"
+                },
+                {
+                    "title": "显示在翻译结果",
+                    "value": "yes"
                 }
             ]
         }
