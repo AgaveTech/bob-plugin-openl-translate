@@ -2,6 +2,13 @@
   "identifier": "club.openl.bob-plugin-openl-translate",
   "versions": [
     {
+      "version": "0.0.3",
+      "desc": "https://github.com/AgaveTech/bob-plugin-openl-translate/releases/tag/v0.0.3",
+      "sha256": "72bfbcb64547283f08585715867fb6ca4be05ad845ba324dc9a1ad76eca37c6e",
+      "url": "https://github.com/AgaveTech/bob-plugin-openl-translate/releases/download/v0.0.3/bob-plugin-openl-translate-v0.0.3.bobplugin",
+      "minBobVersion": "0.5.0"
+    },
+    {
       "version": "0.0.2",
       "desc": "https://github.com/AgaveTech/bob-plugin-openl-translate/releases/tag/v0.0.2",
       "sha256": "e64a050d54d2a30d8ba382430fb1d858b1261091cc2f1418cc48023e537a1076",
