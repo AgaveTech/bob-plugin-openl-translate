@@ -20,6 +20,7 @@ const serviceDisplayName = {
     'aliyun': '阿里翻译',
     'baidu': '百度翻译',
     'caiyun': '彩云小译',
+    "wechat": "微信翻译",
     'sogou': '搜狗翻译',
     'azure': 'Azure 翻译',
     'ibm': 'IBM Watson',

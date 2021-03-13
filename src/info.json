@@ -1,6 +1,6 @@
 {
     "identifier": "club.openl.bob-plugin-openl-translate",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "category": "translate",
     "name": "OpenL",
     "summary": "OpenL 聚合人工智能翻译",
@@ -44,6 +44,10 @@
                 {
                     "title": "彩云小译",
                     "value": "caiyun"
+                },
+                {
+                    "title": "微信翻译",
+                    "value": "wechat"
                 },
                 {
                     "title": "搜狗翻译",

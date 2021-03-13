@@ -5,7 +5,7 @@
 
 > 这是 [Bob](https://ripperhe.gitee.io/bob/#/) 的一个 [OpenL](https://openl.club) 翻译插件
 
-<img src="https://user-images.githubusercontent.com/78897807/109881208-84ee6f80-7c3d-11eb-86df-51510944c79f.png" width="30%" height="auto" align="right" />
+<img src="https://user-images.githubusercontent.com/78897807/111024335-dd431100-83a3-11eb-9300-196c7a19c94e.png" width="30%" height="auto" align="right" />
 
 <h2 align="center">特性</h2>
 
@@ -20,6 +20,7 @@
 * 阿里翻译
 * 百度翻译
 * 彩云小译
+* 微信翻译
 * 搜狗翻译
 * Azure 翻译
 * IBM Watson
@@ -41,5 +42,4 @@
 <img src="https://user-images.githubusercontent.com/78897807/109756767-2201c780-7bae-11eb-9c8c-296cb5882d53.png" width="50%" />
 </p>
 
-![image](https://user-images.githubusercontent.com/78897807/109881578-270e5780-7c3e-11eb-95e8-16a920038b03.png)
-
+![image](https://user-images.githubusercontent.com/78897807/111024401-3e6ae480-83a4-11eb-99c7-f6481d40ced9.png)
