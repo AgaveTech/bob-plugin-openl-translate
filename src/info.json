@@ -1,6 +1,6 @@
 {
     "identifier": "club.openl.bob-plugin-openl-translate",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "category": "translate",
     "name": "OpenL",
     "summary": "OpenL 聚合人工智能翻译",

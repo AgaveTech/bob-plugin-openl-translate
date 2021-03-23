@@ -66,7 +66,7 @@ function translate(query, completion) {
             const translationsResult = $option.displayServiceName === "yes" ? `[${config.serviceDisplayName[$option.service]}] ${translations.result}` : translations.result;
             completion({
                 result: {
-                    from: utils.langMapReverse.get(translations.src_lang),
+                    from: utils.langMapReverse.get(translations.source_lang),
                     to: utils.langMapReverse.get(translations.target_lang),
                     toParagraphs: translationsResult.split('\n'),
                 },
